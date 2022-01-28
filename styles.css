@@ -1,0 +1,214 @@
+:root {
+  --coo-color: #406177;
+  --gray-color: #ddd;
+  /* TRIAL COLORS */
+  /* background-color: #3e5c76; */
+  /* background-color: #1d2d44; */
+  /* background-color: #406177; */
+  /* background-color: #999; */
+  /* background-color: #979dac; */
+  /* background-color: #2c4251; */
+  /* background-color: #c3979f; */
+}
+
+.sidebar a {
+  color: var(--gray-color);
+}
+
+.main-content a {
+  color: #aaa;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+  color: #ddd;
+
+  width: 32%;
+  height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  background-color: var(--coo-color);
+}
+
+.headshot {
+  position: relative;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+.sidebar-heading {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.sidebar-break {
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.sidebar-list {
+  list-style: none;
+}
+
+.sidebar-list i {
+  padding-right: 0.5em;
+}
+
+.contact-list li {
+  padding-bottom: 0.2rem;
+}
+
+.education-list li:first-child {
+  padding-bottom: 1rem;
+}
+
+.skills-list {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+.degree-name {
+  font-size: 1rem;
+}
+
+.degree-dates {
+  font-style: italic;
+}
+
+.degree-institution,
+.degree-dates {
+  font-size: 0.9rem;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  width: 68%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.name {
+  text-align: center;
+  font-size: 2.2rem;
+  padding-top: 1em;
+  font-weight: 200;
+}
+
+.lastname {
+  color: var(--coo-color);
+  font-weight: bold;
+}
+
+.name-break {
+  position: relative;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  border-top: 1px solid var(--coo-color);
+}
+
+.about {
+  font-weight: bold;
+}
+.main-section-break {
+  margin-bottom: 1rem;
+  border: none;
+  border-top: 1px solid var(--coo-color);
+}
+
+.section-title {
+  padding-top: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: var(--coo-color);
+  font-weight: bold;
+}
+
+.project-div {
+  padding-bottom: 1rem;
+}
+
+.project-div.last-project {
+  padding-bottom: 0rem;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.project-title {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.project-links {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.project-description {
+  font-weight: 300;
+}
+
+.job-div {
+  padding-bottom: 1rem;
+}
+
+.job-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.company {
+  font-size: 1rem;
+}
+
+@page {
+  /* size: A4; */
+  /* size: 8.5in 11in; */
+
+  /* width: 8.5in; */
+  /* height: 11in; */
+  /* margin: 0; */
+}
+
+@media print {
+  body {
+    /* size: A4; */
+    width: 8.5in;
+    height: 11in;
+    margin: 0 0 0 0;
+  }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div>
+        <h1 class="sidebar-heading">Contact</h1>
+        <hr class="sidebar-break" />
+
+        <ul class="sidebar-list contact-list">
+          <li>
+            <i class="fa-solid fa-user"></i><a href="https://www.nathanfretz.me" target="_blank">nathanfretz.me</a>
+          </li>
+          <li><i class="fa-solid fa-at"></i>nmfretz@gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i>604-219-6992</li>
+          <!-- <li><i class="fa-brands fa-twitter"></i>Twitter</li> -->
+          <li>
+            <i class="fa-brands fa-github"></i
+            ><a href="https://github.com/nmfretz" target="_blank">github.com/nmfretz</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-linkedin"></i
+            ><a href="https://www.linkedin.com/in/nfretz/">linkedin.com/in/nfretz</a>
+          </li>
+          <li><i class="fa-solid fa-earth-americas"></i>Vancouver, BC</li>
+        </ul>
+      </div>
+      <div>
+        <h1 class="sidebar-heading">Education</h1>
+        <hr class="sidebar-break" />
+
+        <ul class="sidebar-list education-list">
+          <li>
+            <h1 class="degree-name">MSc in Geological Sciences</h1>
+            <h1 class="degree-dates">2010 - 2013</h1>
+            <p class="degree-institution">The University of British Columbia</p>
+          </li>
+          <li>
+            <h1 class="degree-name">BSc Geog. Biogeosciences</h1>
+            <h1 class="degree-dates">2006 - 2010</h1>
+            <p class="degree-institution">The University of British Columbia</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1 class="sidebar-heading">Skills</h1>
+        <hr class="sidebar-break" />
+
+        <ul class="sidebar-list skills-list">
+          <li>JavaScript | React</li>
+          <li>NodeJs | ExpressJS</li>
+          <li>Python</li>
+          <li>Solidity | Hardhat</li>
+          <!-- <li>Clarity | Clarinet</li> -->
+          <li>HTML | CSS</li>
+          <li>Git | GitHub</li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">
+      <h1 class="name">Nathan <span class="lastname">Fretz</span></h1>
+      <hr class="name-break" />
+      <p class="about">
+        Passionate about personal finance and investing, economics, cryptocurrency, and decentralized blockchains.
+        Interested in working for a company at the intersection of technology and finance that is building a future I
+        believe in.
+      </p>
+      <hr class="name-break" />
+
+      <div class="projects-div">
+        <h2 class="section-title">Select Projects</h2>
+        <hr class="main-section-break" />
+        <div class="project-div">
+          <div class="project-header">
+            <h1 class="project-title">Investment Dashboard</h1>
+            <h1 class="project-links">
+              <a href="https://github.com/nmfretz/investment-dashboard" target="_blank">View Code</a>
+              |
+              <a href="https://investment-dashboard.netlify.app/" target="_blank">View Website</a>
+            </h1>
+          </div>
+          <p>JavaScript | NodeJs | ExpressJs | React | HTML | CSS</p>
+          <p class="project-description">
+            An investment dashboard for tracking a portfolio of stocks and crypto assets. The user can view company
+            financials and price history for stocks and crypto assets, made possible by consuming data from multiple
+            APIs.
+          </p>
+        </div>
+
+        <div class="project-div last-project">
+          <div class="project-header">
+            <h1 class="project-title">Fullstack Blockchain Project</h1>
+
+            <h1 class="project-links">
+              <a href="https://github.com/nmfretz/whoopsie-derpies-nft" target="_blank">View Code</a> |
+              <a href="https://whoopsiederpies.netlify.app/" target="_blank">View Website</a>
+            </h1>
+          </div>
+          <p>Solidity | Hardhat | JavaScript | React | HTML | CSS</p>
+          <p class="project-description">
+            An ERC-721 art collection project deployed to the ethereum rinkeby testnet. Inherits from OpenZeppelin
+            contracts for secure ERC standards, and Chainlink's Verifiable Random Function to obtain a source of
+            randomness. Token metadata and images are stored on IPFS. Frontend built using ethers.js and React.
+          </p>
+        </div>
+      </div>
+
+      <div class="work-experience-div">
+        <h2 class="section-title">Work Experience</h2>
+        <hr class="main-section-break" />
+        <div class="job-div">
+          <h1 class="job-title">Hydrogeologist</h1>
+          <h1 class="company">Golder Associates | Vancouver, BC | 2013 to 2021</h1>
+          <p class="job-description">
+            Engaged in hydrogeological investigations throughout British Columbia and the Territories. Provided input
+            and technical review to hydrogeological investigations in aquifer characterization, tunnelling, seepage and
+            dewatering, remediation, and numerical and analytical modelling of groundwater flow and transport.
+          </p>
+        </div>
+        <div class="job-div">
+          <h1 class="job-title">Graduate Research Assistant, M.Sc.</h1>
+          <h1 class="company">The University of British Columbia | Vancouver, BC | 2010 to 2013</h1>
+          <p class="job-description">
+            Part of a collaborative project that investigated hydrologic, geochemical, microbiologic, gas transport, and
+            heat transport mechanisms controlling acid rock drainage in mine waste in the Canadian Arctic.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
